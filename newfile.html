@@ -1,0 +1,30 @@
+var Tooltip_bubble3 = d3.select("#bubble3")
+  .append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0)
+  .style("background-color", "white")
+  .style("border", "solid")
+  .style("border-width", "2px")
+  .style("border-radius", "5px")
+  .style("padding", "5px")
+
+
+
+
+  var mouseover = function(d) {
+    Tooltip_bubble3.style("opacity", 1)
+  }
+  var mousemove = function(d) {
+    Tooltip_bubble3
+      .html(d.CAT + "--> "+ d.OFNS_DESC+ "<br>" +d.percent)
+      .style("left", (d3.mouse(this)[0]+10) + "px")
+      .style("top", (d3.mouse(this)[1]) + "px")
+  }
+  var mouseleave = function(d) {
+    Tooltip_bubble3.style("opacity", 0)
+  }
+
+
+  .on("mouseover", mouseover)
+  .on("mousemove", mousemove)
+  .on("mouseleave", mouseleave)

@@ -1,0 +1,453 @@
+
+body {
+    background-color: #A58E74;
+  }
+
+.bg-image {
+    background-image: url("triston-dunn-rfj_wOYQkus-unsplash.jpg");
+    background-color: black;
+    height: 1250px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    filter: blur(0.8px);
+    }
+
+
+.bg-image2 {
+        background-image: url("diane-picchiottino-5NvHt1cHgYA-unsplash.jpg");
+        background-color: black;
+        height: 700px;
+        width: 1800px;
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 400%;
+        filter: blur(3px);
+}
+
+
+.bg-image3 {
+    background-image: url("magnus-andersson-OhxTQc0VCHs-unsplash.jpg");
+    background-color: black;
+    height: 1000px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 647%;
+    filter: blur(4px);
+}
+
+
+.bg-image4 {
+    background-image: url("microsoft-edge-6CNB3iD8M4E-unsplash.jpg");
+    background-color: black;
+    height: 970px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 770%;
+    filter: blur(4px);
+}
+
+
+.bg-image5 {
+    background-image: url("james-lee-JdZBRhdBW7k-unsplash.jpg");
+    background-color: black;
+    height: 900px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1330%;
+    filter: blur(4px);
+}
+
+.bg-image6 {
+    background-image: url("milad-fakurian-nNpLEEdmUj0-unsplash.jpg");
+    background-color: black;
+    height: 400px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 1440%;
+    filter: blur(4px);
+}
+
+.text2{
+    font-size: 80px;
+    top: 440%;
+    left: 35%;
+    color: white;
+    position: absolute;
+}
+
+.text3{
+    font-size: 30px;
+    top: 510%;
+    left: 50%;
+    color: black;
+    position: absolute;
+    text-align: center;
+    
+    
+}
+
+
+.text4{
+    font-size: 60px;
+    top: 690%;
+    left: 5%;
+    color: white;
+    position: absolute;
+    text-align: left;
+    
+    
+}
+
+p{
+    font-size: 30px;
+}
+
+
+.text5{
+    font-size: 80px;
+    top: 820%;
+    left: 15%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    
+    
+}
+
+.text6{
+    font-size: 80px;
+    top: 1360%;
+    left: 5%;
+    color: white;
+    position: absolute;
+    text-align: left;
+    
+    
+}
+
+.text7{
+    font-size: 20px;
+    top: 1470%;
+    left: 45%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    
+    
+}
+
+.p2{
+    font-size: 40px;
+}
+
+.centered {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+    }
+    
+
+
+#bg2-color{
+    background: #4d4d4d;
+    height: 600px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    }
+
+#bg3-color{
+    background: #EF5F48;
+    height: 600px;
+    width: 1800px;
+    background-position: center;
+    background-size: cover;
+    }
+
+.div{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    height: 50px;
+    width: 1000px;
+    top: 185%;
+    left: 27%;
+    text-align: center;
+    display: flex; 
+    color: white;
+    }
+
+.div2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    height: 50px;
+    width: 1000px;
+    top: 185%;
+    left: 27%;
+    text-align: center;
+    display: flex; 
+    color: white;
+    }
+
+
+.div3{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    height: 500px;
+    width: 1000px;
+    top: 260%;
+    left: 27%;
+    text-align: center;
+    display: flex; 
+    color: white;
+    }
+
+h6{font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    right: 30%;
+
+}
+
+
+
+#form {
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    right: 20%;
+    font: inherit;
+  
+    }
+
+.button1{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 305%;
+    left: 70%;
+}
+.button2{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 310%;
+    left: 70%;
+}
+.button3{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 315%;
+    left: 70%;
+}
+.button4{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 305%;
+    left: 75%;
+}
+.button5{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 310%;
+    left: 75%;
+}
+.button6{
+    font-size: 20px;
+    font-family: "Sans-serif", Garamond;
+    position: absolute;
+    top: 315%;
+    left: 75%;
+}
+
+#pie_chart{
+    position: absolute;
+    top: 310%;
+    text-align: center;
+    left: 40%;
+}
+
+#pie_legend{
+    position: absolute;
+    top: 310%;
+    left: 63%;
+}
+
+.text{
+    position: absolute;
+    top: 330%;
+    left: 5%;
+    width: 10 px;
+    font-size: 40px;
+    color: green;
+    animation: color-change 1s infinite;
+
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
+
+
+
+
+
+
+.circle:hover{
+    stroke: black;
+    stroke-width: 4px;
+  }
+
+#world_map{
+    position: absolute;
+    top: 510%;
+    left: 5%;
+    fill: #3c3c3c;
+    
+}
+
+
+#legend{
+    position: absolute;
+    top: 890%;
+    left: 40%;
+    color: black;
+    font-family: "Sans-serif";
+    font-size: 45px;
+}
+
+
+#timeline_canvas1{
+    position: absolute;
+    top: 930%;
+    left: 35%;
+    
+    
+}
+
+
+#timeline_text1{
+    position: absolute;
+    top: 938%;
+    left: 25%;
+    color: black;
+    font-family: "Sans-serif";
+    font-size: 45px;
+}
+
+
+#bubble{
+    position: absolute;
+    top: 940%;
+    left: 3%;
+}
+
+
+#timeline_canvas2{
+    position: absolute;
+    top: 1025%;
+    left: -25%;
+}
+
+
+#timeline_text2{
+    position: absolute;
+    top: 1035%;
+    left: 68%;
+    color: black;
+    font-family: "Sans-serif";
+    font-size: 45px;
+}
+
+
+#bubble2{
+    position: absolute;
+    top: 1044%;
+    left: 60%;
+}
+
+
+#timeline_canvas3{
+    position: absolute;
+    top: 1125%;
+    left: 35%;
+}
+
+
+#timeline_text3{
+    position: absolute;
+    top: 1130%;
+    left: 25%;
+    color: black;
+    font-family: "Sans-serif";
+    font-size: 45px;
+}
+
+
+#bubble3{
+    position: absolute;
+    top: 1137%;
+    left: 3%;
+}
+
+
+#timeline_canvas4{
+    position: absolute;
+    top: 1220%;
+    left: -25%;
+}
+
+
+#timeline_text4{
+    position: absolute;
+    top: 1227%;
+    left: 68%;
+    color: black;
+    font-family: "Sans-serif";
+    font-size: 45px;
+}
+
+
+#bubble4{
+    position: absolute;
+    top: 1227%;
+    left: 60%;
+}
+
+
+.tooltip {
+    position: absolute;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid #555;
+    font-weight: bold;
+}
+
+
+.tooltip2 {
+    position: absolute;
+}
+
+
+
+
